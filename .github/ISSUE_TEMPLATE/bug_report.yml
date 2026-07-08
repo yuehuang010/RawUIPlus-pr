@@ -1,0 +1,63 @@
+name: Bug report
+description: Report a problem with RawUIPlus
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. Please fill in the details below so the issue can be reproduced.
+  - type: input
+    id: version
+    attributes:
+      label: App version
+      description: Found in Preferences / About.
+      placeholder: e.g. 1.0.0.0
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      description: What did you do, step by step?
+      placeholder: |
+        1. Open folder ...
+        2. Send image to Develop ...
+        3. Adjust ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: log
+    attributes:
+      label: Log file
+      description: |
+        Attach the log the app writes on each run (drag the file into this box):
+        `%TEMP%\RawUIPlus.YYYYMMDD.PID.log`
+    validations:
+      required: false
+  - type: input
+    id: os
+    attributes:
+      label: Windows version
+      placeholder: e.g. Windows 11 24H2 (26100)
+    validations:
+      required: false
+  - type: input
+    id: hardware
+    attributes:
+      label: GPU / hardware
+      description: Relevant for develop/export rendering issues.
+      placeholder: e.g. AMD Radeon 890M / Ryzen AI 9 HX
+    validations:
+      required: false
