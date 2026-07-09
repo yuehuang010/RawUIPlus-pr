@@ -13,6 +13,11 @@ the app writes on each run:
 %TEMP%\RawUIPlus.YYYYMMDD.PID.log
 ```
 
+## Privacy policy
+
+- [PRIVACY.md](./PRIVACY.md) — the app's privacy policy (also the URL referenced
+  by the Microsoft Store listing).
+
 ## Third-party notices
 
 RawUIPlus incorporates third-party open-source components. Their licenses and
