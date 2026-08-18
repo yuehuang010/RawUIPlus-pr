@@ -33,4 +33,5 @@ new "Last updated" date.
 
 ## Contact
 
-Questions about this policy can be sent to: yuehuang010@gmail.com
+Questions about this policy can be raised by opening an issue at:
+https://github.com/yuehuang010/RawUIPlus-pr/issues
